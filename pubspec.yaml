@@ -1,0 +1,67 @@
+name: ct484_project
+description: "Project for CT484."
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  flutter_dotenv: ^5.1.0
+  pocketbase: ^0.18.1
+  http: ^1.2.2
+  shared_preferences: ^2.3.2
+  google_fonts: ^6.2.0
+  image_picker: ^1.1.2
+  photo_view: ^0.15.0
+  flutter_svg: ^2.0.5
+  smooth_page_indicator: ^1.2.0+3
+  loading_animation_widget: ^1.3.0
+  intl: ^0.19.0
+  provider: ^6.1.2
+  dropdown_search: ^6.0.1
+  flutter_native_splash: ^2.4.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  flutter_launcher_icons: "^0.14.1"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/images/
+    - assets/svg/
+    - .env
+
+flutter_launcher_icons:
+  android: true
+  image_path: "assets/icon/icon.png"
+
+flutter_native_splash:
+  color: "#ffffff"
+  branding_bottom_padding: 0
+  branding: "assets/splash/splash.png"
+  branding_dark: "assets/splash/splash.png"
+  image: "assets/splash/splash_icon.png"
+  image_dark: "assets/splash/splash_icon.png"
+  android: true
+  android_12:
+    color: "#ffffff"
+    branding: "assets/splash/splash.png"
+    branding_dark: "assets/splash/splash.png"
+    image: "assets/splash/splash_icon.png"
+    image_dark: "assets/splash/splash_icon.png"
+    branding_bottom_padding: 0
+
+  
